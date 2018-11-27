@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[【正常用例】:获取北京天气成功!]]>
+    </line>
+    <line>
+      <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101010100.html]]>
+    </line>
+    <line>
+      <![CDATA[返回结果: {"weatherinfo":{"city":"北京","cityid":"101010100","temp1":"18℃","temp2":"31℃","weather":"多云转阴","img1":"n1.gif","img2":"d2.gif","ptime":"18:00"}}]]>
+    </line>
+    <line>
+      <![CDATA[用例结果: resultCode=>expected: 北京 ,actual: 北京]]>
+    </line>
+    <line>
+      <![CDATA[【正常用例】:获取上海天气成功!]]>
+    </line>
+    <line>
+      <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101020100.html]]>
+    </line>
+    <line>
+      <![CDATA[返回结果: {"weatherinfo":{"city":"上海","cityid":"101020100","temp1":"19℃","temp2":"23℃","weather":"大雨转中雨","img1":"n9.gif","img2":"d8.gif","ptime":"18:00"}}]]>
+    </line>
+    <line>
+      <![CDATA[用例结果: resultCode=>expected: 上海 ,actual: 上海]]>
+    </line>
+    <line>
+      <![CDATA[【正常用例】:获取深圳天气成功!]]>
+    </line>
+    <line>
+      <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101280601.html]]>
+    </line>
+    <line>
+      <![CDATA[返回结果: {"weatherinfo":{"city":"深圳","cityid":"101280601","temp1":"24℃","temp2":"30℃","weather":"阵雨转大雨","img1":"n3.gif","img2":"d9.gif","ptime":"18:00"}}]]>
+    </line>
+    <line>
+      <![CDATA[用例结果: resultCode=>expected: 深圳 ,actual: 深圳]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="422" started-at="2018-11-27T09:47:26Z" finished-at="2018-11-27T09:47:27Z">
+    <groups>
+      <group name="BaseCase">
+        <method signature="WeatherTest.getBeiJing_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getBeiJing_Succ" class="weather.WeatherTest"/>
+        <method signature="WeatherTest.getShangHai_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getShangHai_Succ" class="weather.WeatherTest"/>
+        <method signature="WeatherTest.getShenZhen_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getShenZhen_Succ" class="weather.WeatherTest"/>
+      </group> <!-- BaseCase -->
+    </groups>
+    <test name="Default test" duration-ms="422" started-at="2018-11-27T09:47:26Z" finished-at="2018-11-27T09:47:27Z">
+      <class name="weather.WeatherTest">
+        <test-method status="PASS" signature="getBeiJing_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getBeiJing_Succ" duration-ms="250" started-at="2018-11-27T09:47:26Z" finished-at="2018-11-27T09:47:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[【正常用例】:获取北京天气成功!]]>
+            </line>
+            <line>
+              <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101010100.html]]>
+            </line>
+            <line>
+              <![CDATA[返回结果: {"weatherinfo":{"city":"北京","cityid":"101010100","temp1":"18℃","temp2":"31℃","weather":"多云转阴","img1":"n1.gif","img2":"d2.gif","ptime":"18:00"}}]]>
+            </line>
+            <line>
+              <![CDATA[用例结果: resultCode=>expected: 北京 ,actual: 北京]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBeiJing_Succ -->
+        <test-method status="PASS" signature="getShangHai_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getShangHai_Succ" duration-ms="62" started-at="2018-11-27T09:47:26Z" finished-at="2018-11-27T09:47:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[【正常用例】:获取上海天气成功!]]>
+            </line>
+            <line>
+              <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101020100.html]]>
+            </line>
+            <line>
+              <![CDATA[返回结果: {"weatherinfo":{"city":"上海","cityid":"101020100","temp1":"19℃","temp2":"23℃","weather":"大雨转中雨","img1":"n9.gif","img2":"d8.gif","ptime":"18:00"}}]]>
+            </line>
+            <line>
+              <![CDATA[用例结果: resultCode=>expected: 上海 ,actual: 上海]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getShangHai_Succ -->
+        <test-method status="PASS" signature="getShenZhen_Succ()[pri:0, instance:weather.WeatherTest@9629756]" name="getShenZhen_Succ" duration-ms="47" started-at="2018-11-27T09:47:27Z" finished-at="2018-11-27T09:47:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[【正常用例】:获取深圳天气成功!]]>
+            </line>
+            <line>
+              <![CDATA[请求地址: http://www.weather.com.cn/data/cityinfo/101280601.html]]>
+            </line>
+            <line>
+              <![CDATA[返回结果: {"weatherinfo":{"city":"深圳","cityid":"101280601","temp1":"24℃","temp2":"30℃","weather":"阵雨转大雨","img1":"n3.gif","img2":"d9.gif","ptime":"18:00"}}]]>
+            </line>
+            <line>
+              <![CDATA[用例结果: resultCode=>expected: 深圳 ,actual: 深圳]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getShenZhen_Succ -->
+      </class> <!-- weather.WeatherTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
